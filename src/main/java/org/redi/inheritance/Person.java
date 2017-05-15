@@ -12,6 +12,19 @@ public class Person {
     private Date dateOfBirth;
     private String email;
 
+    //defoult stracture
+    public Person(){
+        // do anything you want to initiolaizing her .
+
+    }
+    // Structure
+    public Person(String firstName,String lastName,Date dateOfBirth,String email){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.dateOfBirth=dateOfBirth;
+        this.email=email;
+
+    }
 
     public String getFirstName() {
         return firstName;
