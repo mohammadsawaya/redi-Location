@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class Student extends Person {
 
-
+    private String studentAttendendKurs;
     public String getStudentAttendendKurs() {
         return studentAttendendKurs;
     }
@@ -16,7 +16,7 @@ public class Student extends Person {
         this.studentAttendendKurs = studentAttendendKurs;
     }
 
-    private String studentAttendendKurs;
+
 
     public Student(String firstName, String lastName, Date dateOfBirth,String email,String studentAttendendKurs){
         super(firstName,lastName,dateOfBirth,email);
